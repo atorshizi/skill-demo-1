@@ -3,7 +3,7 @@ import org.junit.*;
 
 public class demoTester {
     @Test 
-    public void modFiveTest(){
-        assertEquals(demo.modFive(10), 1);        // should return false initialy
+    public void modFiveTest(){  
+        assertEquals(demo.modFive(10), 0);  
     }
 }
